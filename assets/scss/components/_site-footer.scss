@@ -1,6 +1,5 @@
 #footer {
     height: 398px;
-    padding-top: 145px;
 }
 
 #footer > * > a {
@@ -29,6 +28,9 @@
 
 
 @media (min-width: 992px) {
+    #footer {
+        padding-top: 145px;
+    }
     #footer__logo {
         width: 75%;
         margin-top: 25px;
@@ -37,6 +39,9 @@
 }
 
 @media (max-width: 991px) {
+    #footer {
+        padding-top: 0;
+    }
     #footer__logo {
         width: 50%;
         margin-top: 25px;
